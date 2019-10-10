@@ -1,0 +1,26 @@
+.count {
+  margin-bottom: 10px;
+}
+
+.count span {
+  display: inline-block;
+  min-width: 60px;
+  text-align: center;
+}
+
+.count h4 {
+  margin-bottom: 6px;
+}
+
+.count.lightblue {
+  color: lightblue;
+}
+
+.count.lightpink {
+  color: lightpink;
+}
+
+
+
+
+

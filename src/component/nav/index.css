@@ -1,0 +1,12 @@
+.nav {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item.active {
+  color: lightpink;
+}
