@@ -5,7 +5,8 @@ import './index.css'
 
 const NavMap = [
   { to: '/', innerHTML: 'home' },
-  { to: '/count', innerHTML: 'count' }
+  { to: '/count', innerHTML: 'count' },
+  { to: '/drink', innerHTML: 'drink' }
 ]
 
 const NavLinkList = NavMap.map(item => {
@@ -14,7 +15,7 @@ const NavLinkList = NavMap.map(item => {
     <NavLink
       className="nav-item"
       activeClassName="active"
-      exact
+      exact={ to === '/' }
       to={ to }
       key={ to }
     >
