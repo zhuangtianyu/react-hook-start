@@ -1,0 +1,15 @@
+.drink-list-table {
+  width: 600px;
+  th {
+    text-align: left;
+  }
+  td a {
+    color: lightpink;
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+
